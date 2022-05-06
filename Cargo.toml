@@ -1,7 +1,7 @@
 [package]
 name = "atrnos"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 
 [profile.dev]
 panic = "abort"
@@ -12,4 +12,4 @@ panic = "abort"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bootloader = "0.9.8"
+bootloader = "0.9.22"

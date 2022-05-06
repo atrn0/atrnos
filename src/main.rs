@@ -20,6 +20,5 @@ pub extern "C" fn _start() -> ! {
             *vga_buffer.offset(i as isize * 2 + 1) = 0xb;
         }
     }
-
     loop {}
 }
