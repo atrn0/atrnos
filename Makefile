@@ -7,4 +7,4 @@ ${IMAGE}:
 build: ${IMAGE}
 
 run: build
-	qemu-system-x86_64 -drive format=raw,file=${IMAGE}
+	cargo run
